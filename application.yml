@@ -1,0 +1,10 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: microservicecloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/zhang-ranran/microservicecloud-config-student02.git
